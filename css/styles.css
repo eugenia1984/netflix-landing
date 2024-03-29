@@ -9,9 +9,12 @@
 
 :root {
   --white-100: #fff;
+  --white-90: #cdc4c4;
   --black-100: #000;
   --black-90: rgba(0, 0, 0, 0.9);
+  --black-80: #141414;
   --black-05: rgba(0, 0, 0, 0.05);
+  --grey-90: #3d3d3d;
   --red-90: #e50914;
   --red-80: #f40612;
 }
@@ -57,14 +60,14 @@ header {
 
 @media screen and (min-width: 768px) {
   #navbar {
-    max-width: 480px;
-    justify-content: space-around;
+    max-width: 760px;
+    justify-content: space-between;
   }
 }
 
 @media screen and (min-width: 1024px) {
   #navbar {
-    max-width: 800px;
+    max-width: 1000px;
   }
 }
 .navbar-logo {
@@ -103,7 +106,7 @@ header {
 }
 
 .pitch-subtitle {
-  margin: 0 0 .5em;
+  margin: 0 0 0.5em;
   text-transform: uppercase;
 }
 
@@ -112,7 +115,7 @@ header {
   font-size: 14px;
   letter-spacing: 1.9px;
   font-weight: 400;
-  margin: .5em .5em .5em 0;
+  margin: 0.5em 0.5em 0.5em 0;
   padding: 12px 1em;
   color: var(--white-100);
   background-color: var(--red-90);
@@ -130,4 +133,52 @@ header {
 .navbar-sign-in:hover,
 .pitch-btn:hover {
   background-color: var(--red-80);
+}
+
+/* Features */
+#features > nav {
+  padding-top: 35px;
+  background-color: var(--black-80);
+  border-bottom: 2px solid var(--grey-90);
+}
+
+#features > nav a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  font-weight: bold;
+  color: var(--white-90);
+}
+
+#features > nav a :hover {
+  color: var(--white-100);
+}
+
+#features > nav a img {
+  height: 49px;
+}
+
+#features > nav a h2 {
+  margin: 10px 0 0 ;
+  font-size: 1em;
+}
+
+/* Flex-Box classes */
+.columns {
+  display: flex;
+}
+
+.column {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.size-80 {
+  width: 80%;
 }
