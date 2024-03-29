@@ -37,22 +37,55 @@
       <section id="features">
         <nav>
           <div class="center columns size-80">
-            <a href="#" class="column" alt="cancel anytime">
+            <a
+              href="#"
+              class="column is-selected"
+              data-id="cancelanytime"
+              alt="cancel anytime"
+            >
               <img src="./assets/images/open-door.png" alt="cancel anytime" />
               <h2>No commitments <br />Cancel online at anytime</h2>
             </a>
-            <a href="#" class="column" alt="watch anywhere">
-              <img src="./assets/images/smartphone-tablet.png" alt="watch anywhere" />
+            <a
+              href="#"
+              class="column"
+              data-id="watchanywhere"
+              alt="watch anywhere"
+            >
+              <img
+                src="./assets/images/smartphone-tablet.png"
+                alt="watch anywhere"
+              />
               <h2>Watch anywhere</h2>
             </a>
-            <a href="#" class="column" alt="Pick your price">
+            <a
+              href="#"
+              class="column"
+              data-id="pickprice"
+              alt="Pick your price"
+            >
               <img src="./assets/images/price-tag.png" alt="Pick your price" />
               <h2>Pick your price</h2>
             </a>
           </div>
+          <article>
+            <section class="is-selected" data-id="cancelanytime">
+              About feature 1
+            </section>
+            <section data-id="cancelanytime">About feature 2</section>
+            <section data-id="pickprice">About feature 2</section>
+          </article>
         </nav>
       </section>
     </main>
     <footer id="footer"></footer>
+    <!-- <script srv="https://ajax.googleapis.com/ajax/libs/jquery"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script srv="js/app.js"></script>
   </body>
 </html>

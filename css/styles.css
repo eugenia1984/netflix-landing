@@ -182,3 +182,18 @@ header {
 .size-80 {
   width: 80%;
 }
+
+/* Tabs */
+#features > nav a.is-selected {
+  border-bottom: 5ps solid var(--red-90);
+  color: var(--white-100);
+}
+
+#features > article > section {
+  display: none;
+  padding: 40px 0;
+}
+
+#features > article > section.is-selected {
+  display: block;
+}
