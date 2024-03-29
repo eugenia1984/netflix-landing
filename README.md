@@ -12,6 +12,8 @@ Today I went back to basics and create a clone of the **Netflix** landing page, 
 
 - <img width="28" height="28" src="https://img.icons8.com/fluency/28/css3.png" alt="css3"/> CSS3
 
+- <img width="28" height="28" src="https://img.icons8.com/color/28/javascript--v1.png" alt="javascript"/> JavaScript
+
 - <img width="28" height="28" src="https://img.icons8.com/color/28/git.png" alt="git"/> Git and <img width="28" height="28" src="https://img.icons8.com/ios-filled/28/github.png" alt="github"/> GitHub
 ---
 
