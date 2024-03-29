@@ -1,0 +1,14 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)),
+    url("/assets/images//background-header.jpg");
+  height: 100vh;
+}
